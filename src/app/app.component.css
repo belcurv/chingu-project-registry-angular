@@ -1,0 +1,13 @@
+app-header {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 12px #fff;
+}
+
+app-body {
+    flex: 1;
+    width: 100%;
+}

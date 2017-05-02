@@ -1,0 +1,27 @@
+.belcurv-footer {
+    font-family: sans-serif;
+    padding: 1em;
+    background: #404040;
+    color: #999;
+    text-align: center;
+    font-size: 13px;
+}
+
+.belcurv-footer .footer-credit {
+    vertical-align: middle;
+}
+
+.belcurv-footer .github-icon {
+    display: inline-block;
+    fill: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+.belcurv-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.belcurv-footer a:hover {
+    text-decoration: underline;
+}
