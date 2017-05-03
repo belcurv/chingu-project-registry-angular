@@ -8,6 +8,8 @@ import { AppHeaderComponent } from './app-header/app-header.component';
 import { AppBodyComponent } from './app-body/app-body.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 
+import { ProjectService } from './services/project.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,7 @@ import { AppFooterComponent } from './app-footer/app-footer.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
